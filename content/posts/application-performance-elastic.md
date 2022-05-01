@@ -1,7 +1,13 @@
 ---
-title: "Application Performance Elastic"
+title: "Application performance using Amazon Elasticache"
+description: "My approach to improve application performance using Amazon Elasticache #CloudGuruChallenge"
 date: 2022-05-01T14:10:09-04:00
 draft: false
+cover:
+    image: "https://res.cloudinary.com/acloud-guru/image/fetch/c_thumb,f_auto,q_auto,w_1200/https://acg-wordpress-content-production.s3.us-west-2.amazonaws.com/app/uploads/2020/09/CloudGuruChallenge-min.jpg"
+    alt: "#CloudGuruChallenge"
+    caption: "#CloudGuruChallenge"
+tags: ["cloudskills", "terraform", "redis", "python"]
 ---
 
 On June 7, 2021, [A Cloud Guru](https://acloudguru.com) released a challenge about improving the performance of an application. After a very bumpy ride, I was able to complete this challenge. One of the things that made me work on this challenge was the need to learn terraform, so I found existing building the infrastructure of this project using terraform.

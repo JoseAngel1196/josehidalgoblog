@@ -1,4 +1,37 @@
 baseURL = 'https://JoseAngel1196.github.io/'
 languageCode = 'en-us'
-title = 'My personal blog'
+title = 'Jose Hidalgo'
 theme="PaperMod"
+
+[params.homeInfoParams]
+Title = "Hi there!"
+Content = "Welcome to my personal blog "
+
+[[params.socialIcons]]
+name = "Twitter"
+url = "https://twitter.com/JustCallMeJochi"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/jose-hidalgo-rosa/"
+
+[params]
+ShowReadingTime = true
+ShowShareButtons = true
+ShowToc = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+author = ["Me"]
+comments = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1_000
+threshold = 0.4
+minMatchCharLength = 0
+keys = [ "title", "permalink", "summary", "content" ]
